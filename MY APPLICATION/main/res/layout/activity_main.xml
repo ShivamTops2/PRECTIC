@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="india"
+        android:textColor="#F44336"
+        android:textSize="60sp"
+        android:layout_below="@+id/text"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="182dp"
+        android:gravity="center"
+        android:text="Australia"
+        android:textColor="#100F0F"
+        android:textSize="60sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/australia" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/text"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/india" />
+
+
+</RelativeLayout>
