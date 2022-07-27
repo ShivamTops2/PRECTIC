@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shivam"
+            android:textSize="75sp"
+            android:textColor="#FF5722"
+            />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dharmik"
+            android:textColor="#4B6C4D"
+            android:textSize="75sp"
+            android:layout_below="@+id/t1"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenish"
+            android:textSize="75sp"
+            android:textColor="#FF9800"
+            android:layout_below="@+id/t2"
+            />
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruchit"
+            android:textSize="75sp"
+            android:textColor="#00BCD4"
+            android:layout_below="@+id/t3"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dimple"
+            android:textSize="75sp"
+            android:textColor="#8BC34A"
+            android:layout_below="@+id/t4"/>
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prakruti"
+            android:textSize="75sp"
+            android:textColor="#673AB7"
+            android:layout_below="@+id/t5"/>
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tops"
+            android:textSize="75sp"
+            android:textColor="#FFC107"
+            android:layout_below="@+id/t6"/>
+
+    </RelativeLayout>
+</ScrollView>
