@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:outlineAmbientShadowColor="#7C4118"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/im1"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/images" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSTAGRAM"
+                android:fontFamily="@font/nosifer"
+                android:textSize="20sp"
+                android:layout_marginLeft="5sp"
+                android:textColor="#F44336"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:layout_marginLeft="5sp"
+
+                android:fontFamily="@font/nosifer"
+                android:text="INSTALL"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="right"
+                android:fontFamily="@font/nosifer"
+                android:text="12:00:01"
+                android:textColor="#4B7816"
+
+                android:textSize="20sp"
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
