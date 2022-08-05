@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/im1"
+            app:siBorderWidth="7dp"
+            app:siBorderColor="@color/black"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/im1" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="INTRODUCTION"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            android:textSize="30sp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3"
+            android:textSize="30sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#xA;" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
